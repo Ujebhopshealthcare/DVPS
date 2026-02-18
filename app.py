@@ -4,6 +4,6 @@ class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
         self.end_headers()
-        self.wfile.write(b"Hello,Welcome here")
+        self.wfile.write(b"Hello,Welcome Advance stage")
 
 HTTPServer(('', 3000), handler).serve_forever()
