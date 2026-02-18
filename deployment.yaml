@@ -15,6 +15,6 @@ spec:
       containers:
       - name: dvps-app
         image: dvps-app:latest
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
